@@ -39,13 +39,13 @@ class AppTextStyles {
   );
 
   //button text
-  static TextStyle bottonLarge = GoogleFonts.poppins(
+  static TextStyle buttonLarge = GoogleFonts.poppins(
     fontSize: 16,
     fontWeight: FontWeight.w600,
     letterSpacing: 0.5,
   );
 
-  static TextStyle bottonMedium = GoogleFonts.poppins(
+  static TextStyle buttonMedium = GoogleFonts.poppins(
     fontSize: 14,
     fontWeight: FontWeight.w600,
   );
