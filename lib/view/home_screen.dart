@@ -1,9 +1,12 @@
 import 'package:ecommerce_app/controllers/theme_controller.dart';
+import 'package:ecommerce_app/view/all_products_screen.dart';
+import 'package:ecommerce_app/view/cart_screen.dart';
 import 'package:ecommerce_app/view/widgets/category_chips.dart';
 import 'package:ecommerce_app/view/widgets/custom_search_bar.dart';
 import 'package:ecommerce_app/view/widgets/product_grid.dart';
 import 'package:ecommerce_app/view/widgets/sale_banner.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:get/get_state_manager/src/simple/get_state.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -50,7 +53,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                   // cart button
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () => Get.to(() => CartScreen()),
                     icon: Icon(Icons.shopping_bag_outlined),
                   ),
                   //theme button
@@ -90,7 +93,7 @@ class HomeScreen extends StatelessWidget {
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   ),
                   GestureDetector(
-                    onTap: () {},
+                    onTap: () => Get.to(() => AllProductsScreen()),
                     child: Text(
                       'See All',
                       style: TextStyle(color: Theme.of(context).primaryColor),

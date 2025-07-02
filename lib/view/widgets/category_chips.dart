@@ -21,7 +21,7 @@ class _CategoryChipsState extends State<CategoryChips> {
         children: List.generate(
           categories.length,
           (index) => Padding(
-            padding: EdgeInsetsGeometry.only(right: 12),
+            padding: EdgeInsets.only(right: 12),
             child: AnimatedContainer(
               duration: Duration(milliseconds: 300),
               curve: Curves.easeInOut,
