@@ -1,6 +1,6 @@
 import 'package:ecommerce_app/controllers/auth_controller.dart';
 import 'package:ecommerce_app/utils/app_text_styles.dart';
-import 'package:ecommerce_app/view/signin_screen.dart';
+import 'package:ecommerce_app/features/view/signin_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

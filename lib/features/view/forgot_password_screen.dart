@@ -1,5 +1,5 @@
 import 'package:ecommerce_app/utils/app_text_styles.dart';
-import 'package:ecommerce_app/view/widgets/custom_textfield.dart';
+import 'package:ecommerce_app/features/view/widgets/custom_textfield.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

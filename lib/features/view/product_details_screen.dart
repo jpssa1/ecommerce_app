@@ -1,6 +1,6 @@
 import 'package:ecommerce_app/models/product.dart';
 import 'package:ecommerce_app/utils/app_text_styles.dart';
-import 'package:ecommerce_app/view/widgets/size_selector.dart';
+import 'package:ecommerce_app/features/view/widgets/size_selector.dart';
 import 'package:flutter/material.dart';
 import 'package:share_plus/share_plus.dart';
 

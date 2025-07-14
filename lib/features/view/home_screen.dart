@@ -1,10 +1,11 @@
 import 'package:ecommerce_app/controllers/theme_controller.dart';
-import 'package:ecommerce_app/view/all_products_screen.dart';
-import 'package:ecommerce_app/view/cart_screen.dart';
-import 'package:ecommerce_app/view/widgets/category_chips.dart';
-import 'package:ecommerce_app/view/widgets/custom_search_bar.dart';
-import 'package:ecommerce_app/view/widgets/product_grid.dart';
-import 'package:ecommerce_app/view/widgets/sale_banner.dart';
+import 'package:ecommerce_app/features/notifications/view/notifications_screen.dart';
+import 'package:ecommerce_app/features/view/all_products_screen.dart';
+import 'package:ecommerce_app/features/view/cart_screen.dart';
+import 'package:ecommerce_app/features/view/widgets/category_chips.dart';
+import 'package:ecommerce_app/features/view/widgets/custom_search_bar.dart';
+import 'package:ecommerce_app/features/view/widgets/product_grid.dart';
+import 'package:ecommerce_app/features/view/widgets/sale_banner.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_state_manager/src/simple/get_state.dart';
@@ -48,7 +49,7 @@ class HomeScreen extends StatelessWidget {
                   Spacer(),
                   //notification icon
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () => Get.to(() => NotificationsScreen()),
                     icon: Icon(Icons.notifications_outlined),
                   ),
                   // cart button
