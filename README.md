@@ -31,25 +31,6 @@ Este repositório contém um projeto Flutter (multi-plataforma) que serve como b
 
 ---
 
-## 📁 Estrutura sugerida do projeto
-
-Estrutura sugerida — adapte conforme seu estilo:
-lib/
-├─ main.dart
-├─ src/
-│ ├─ app.dart
-│ ├─ core/
-│ │ ├─ theme/
-│ │ └─ utils/
-│ ├─ features/
-│ │ ├─ auth/
-│ │ ├─ product/
-│ │ └─ cart/
-│ └─ shared/
-│ ├─ widgets/
-│ └─ models/
-assets/
-android/
 ios/
 web/
 test/
