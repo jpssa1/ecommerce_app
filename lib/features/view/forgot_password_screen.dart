@@ -43,7 +43,7 @@ class ForgotPasswordScreen extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 40),
-              //email textfuild
+              //email textfield
               CustomTextfield(
                 label: 'Email',
                 prefixIcon: Icons.email_outlined,
