@@ -1,16 +1,56 @@
 # ecommerce_app
 
-A new Flutter project.
+> Aplicativo exemplo de e-commerce desenvolvido em Flutter — ponto de partida para estudos e protótipos.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 Sobre o projeto
 
-A few resources to get you started if this is your first Flutter project:
+Este repositório contém um projeto Flutter (multi-plataforma) que serve como base para um aplicativo de comércio eletrônico (e-commerce). É uma skeleton/app inicial que pode ser estendido com: autenticação, catálogo de produtos, carrinho, checkout, integração com APIs (Supabase / Firebase / REST), pagamentos, etc.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Tecnologias
+
+- Flutter (SDK)
+- Dart
+- Plataformas alvo: Android, iOS, Web, Desktop (conforme pasta `android/ ios/ web/ macos/ windows/ linux/` no repo)
+- Dependências: definidas em `pubspec.yaml` (adicione/ajuste conforme necessidade)
+
+---
+
+## ✅ Funcionalidades (exemplo)
+
+> Atualize esta lista conforme for implementando features reais.
+
+- Estrutura base de app Flutter (navegação, theming)
+- Pastas para plataformas (android, ios, web, desktop)
+- Espaço para telas: catálogo, detalhes do produto, carrinho e perfil
+- Assets básicos (imagens, fonts) em `assets/`
+
+---
+
+## 📁 Estrutura sugerida do projeto
+
+Estrutura sugerida — adapte conforme seu estilo:
+lib/
+├─ main.dart
+├─ src/
+│ ├─ app.dart
+│ ├─ core/
+│ │ ├─ theme/
+│ │ └─ utils/
+│ ├─ features/
+│ │ ├─ auth/
+│ │ ├─ product/
+│ │ └─ cart/
+│ └─ shared/
+│ ├─ widgets/
+│ └─ models/
+assets/
+android/
+ios/
+web/
+test/
+pubspec.yaml
