@@ -1,37 +1,49 @@
-# ecommerce_app
+# 🛍️ Ecommerce App
 
-> Aplicativo exemplo de e-commerce desenvolvido em Flutter — ponto de partida para estudos e protótipos.
+Um aplicativo de **e-commerce moderno** desenvolvido em **Flutter** utilizando o **GetX** para gerenciamento de estado, navegação e injeção de dependências.  
 
----
-
-## 📌 Sobre o projeto
-
-Este repositório contém um projeto Flutter (multi-plataforma) que serve como base para um aplicativo de comércio eletrônico (e-commerce). É uma skeleton/app inicial que pode ser estendido com: autenticação, catálogo de produtos, carrinho, checkout, integração com APIs (Supabase / Firebase / REST), pagamentos, etc.
-
+O projeto simula uma loja virtual completa, com **cadastro, login, catálogo de produtos, carrinho de compras, dark mode e muito mais**.
 
 ---
 
-## 🚀 Tecnologias
+## ✨ Funcionalidades
 
-- Flutter (SDK)
-- Dart
-- Plataformas alvo: Android, iOS, Web, Desktop (conforme pasta `android/ ios/ web/ macos/ windows/ linux/` no repo)
-- Dependências: definidas em `pubspec.yaml` (adicione/ajuste conforme necessidade)
-
----
-
-## ✅ Funcionalidades (exemplo)
-
-> Atualize esta lista conforme for implementando features reais.
-
-- Estrutura base de app Flutter (navegação, theming)
-- Pastas para plataformas (android, ios, web, desktop)
-- Espaço para telas: catálogo, detalhes do produto, carrinho e perfil
-- Assets básicos (imagens, fonts) em `assets/`
+- 🚀 **Onboarding** com apresentação inicial do app  
+- 👤 **Autenticação** (Login e Cadastro de usuários)  
+- 🏠 **Tela inicial** com categorias e produtos em destaque  
+- 🌙 **Tema claro e escuro**  
+- ❤️ **Favoritos** para salvar produtos desejados  
+- 🛒 **Carrinho de compras** com atualização em tempo real  
+- 👤 **Área do usuário** (perfil, pedidos, endereço, etc.)  
 
 ---
 
-ios/
-web/
-test/
-pubspec.yaml
+## 🖼️ Screenshots
+
+### 🔹 Onboarding
+<img src="brxvKtGwXx9 (1).png" width="250"> <img src="brxvKtGwXx9 (2).png" width="250"> <img src="brxvKtGwXx9 (3).png" width="250">
+
+### 🔹 Autenticação
+<img src="brxvKtGwXx9 (4).png" width="250"> <img src="brxvKtGwXx9 (5).png" width="250">
+
+### 🔹 Home + Dark Mode
+<img src="brxvKtGwXx9 (6).png" width="250"> <img src="brxvKtGwXx9 (7).png" width="250">
+
+### 🔹 Perfil e Carrinho
+<img src="brxvKtGwXx9 (8).png" width="250"> <img src="brxvKtGwXx9 (9).png" width="250">
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [Flutter](https://flutter.dev/)  
+- [Dart](https://dart.dev/)  
+- [GetX](https://pub.dev/packages/get) → State Management, Navigation e Dependency Injection  
+
+---
+
+## ▶️ Como Rodar o Projeto
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/jpssa1/ecommerce_app.git
