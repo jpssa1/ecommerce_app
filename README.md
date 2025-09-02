@@ -21,21 +21,24 @@ O projeto simula uma loja virtual completa, com **cadastro, login, catálogo de 
 ## 🖼️ Screenshots
 
 ### 🔹 Onboarding
-<img src="screenshots/onboarding1.png" width="250"> 
-<img src="screenshots/onboarding2.png" width="250"> 
-<img src="screenshots/onboarding3.png" width="250">
+<img src="screenshots/brxvKtGwXx9 (1).png" width="250"> 
+<img src="screenshots/brxvKtGwXx9 (2).png" width="250"> 
+<img src="screenshots/brxvKtGwXx9 (3).png" width="250">
 
 ### 🔹 Autenticação
-<img src="screenshots/login.png" width="250"> 
-<img src="screenshots/signup.png" width="250">
+<img src="screenshots/brxvKtGwXx9 (4).png" width="250"> 
+<img src="screenshots/brxvKtGwXx9 (5).png" width="250">
 
 ### 🔹 Home + Dark Mode
-<img src="screenshots/home.png" width="250"> 
-<img src="screenshots/dark_home.png" width="250">
+<img src="screenshots/brxvKtGwXx9 (6).png" width="250"> 
+<img src="screenshots/brxvKtGwXx9 (7).png" width="250">
 
 ### 🔹 Perfil e Carrinho
-<img src="screenshots/profile.png" width="250"> 
-<img src="screenshots/cart.png" width="250">
+<img src="screenshots/brxvKtGwXx9 (8).png" width="250"> 
+<img src="screenshots/brxvKtGwXx9 (9).png" width="250">
+
+### 🔹 Splash Screen
+<img src="screenshots/brxvKtGwXx9.png" width="250">
 
 ---
 
